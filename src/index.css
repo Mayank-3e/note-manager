@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.list li{
+  padding: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list li:hover{
+  background: #f3f5f8;
+}
+.list li.selected{
+  color: #9B4DCA;
+}
